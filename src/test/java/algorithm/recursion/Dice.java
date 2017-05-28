@@ -17,6 +17,9 @@ public class Dice {
         assertThat(4, is(calcDiceCase(3)));
         assertThat(8, is(calcDiceCase(4)));
         assertThat(16, is(calcDiceCase(5)));
+        assertThat(32, is(calcDiceCase(6)));
+        assertThat(63, is(calcDiceCase(7)));
+        assertThat(125, is(calcDiceCase(8)));
     }
 
     public int calcDiceCase(int n) {
