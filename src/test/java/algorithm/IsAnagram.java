@@ -30,7 +30,7 @@ public class IsAnagram {
     private boolean 애너그램판별_USE_MAP(String str1, String str2) {
         if (str1.length() != str2.length()) return false;
 
-        Map<Character, Integer> strMap = new HashMap<Character, Integer>();
+        Map<Character, Integer> strMap = new HashMap<>();
 
         for (char c : str1.toCharArray()) {
             if (strMap.containsKey(c)) {

@@ -39,7 +39,7 @@ public class UniqueCharacterInString {
     }
 
     private boolean HashSet을_사용한_방법(String str) {
-        Set<Character> strSet = new HashSet<Character>();
+        Set<Character> strSet = new HashSet<>();
         for (char c : str.toCharArray()) {
             if (strSet.contains(c)) {
                 return false;
