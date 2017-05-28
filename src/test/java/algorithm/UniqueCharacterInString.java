@@ -16,7 +16,7 @@ public class UniqueCharacterInString {
      */
 
     @Test
-    public void 문자열내에서_각문자열이_고유한가() {
+    public void test() {
         assertThat(true, is(이중포문을_사용한_방법("abcd")));
         assertThat(true, is(이중포문을_사용한_방법("abcdefghij")));
         assertThat(false, is(이중포문을_사용한_방법("abccde")));

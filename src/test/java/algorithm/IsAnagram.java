@@ -19,7 +19,7 @@ public class IsAnagram {
     // 방법 2. O(n) : 문자열 개수를 세서 비교하기
 
     @Test
-    public void 애너그램판별하기() {
+    public void test() {
         assertThat(true, is(애너그램판별_USE_MAP("arc", "car")));
         assertThat(true, is(애너그램판별_USE_MAP("caaabbb", "abababc")));
         assertThat(false, is(애너그램판별_USE_MAP("caabbbb", "abababc")));
