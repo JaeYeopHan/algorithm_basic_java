@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.basic;
 
 import org.junit.Test;
 
@@ -30,11 +30,10 @@ public class CharacterCompressWithLength {
         Map<Character, Integer> charCounter = new HashMap<>(str.length());
 
         for (char c : str.toCharArray()) {
-            if (charCounter.containsKey(c)) {
-                charCounter.put(c, charCounter.get(c) + 1);
-            } else {
-                charCounter.put(c, 1);
+            if (!charCounter.containsKey(c)) {
+                charCounter.put(c, 0);
             }
+            charCounter.put(c, charCounter.get(c) + 1);
         }
         StringBuilder sb = new StringBuilder();
         charCounter.forEach((chr, count) -> sb.append(chr + count.toString()));
