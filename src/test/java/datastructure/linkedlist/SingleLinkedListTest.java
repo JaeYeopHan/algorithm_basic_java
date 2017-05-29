@@ -1,4 +1,4 @@
-package algorithm.linkedlist;
+package datastructure.linkedlist;
 
 import org.junit.Test;
 
