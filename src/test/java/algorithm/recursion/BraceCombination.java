@@ -21,7 +21,7 @@ public class BraceCombination {
         List<String> actual = new ArrayList<>();
         actual.add("(())");
         actual.add("()()");
-        assertThat(actual, is(괄호경우의수구하기(2)));
+        assertThat(괄호경우의수구하기(2), is(actual));
     }
 
     public List<String> 괄호경우의수구하기(int n) {

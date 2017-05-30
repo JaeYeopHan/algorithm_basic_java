@@ -14,12 +14,12 @@ public class Dice {
 
     @Test
     public void test() {
-        assertThat(4, is(calcDiceCase(3)));
-        assertThat(8, is(calcDiceCase(4)));
-        assertThat(16, is(calcDiceCase(5)));
-        assertThat(32, is(calcDiceCase(6)));
-        assertThat(63, is(calcDiceCase(7)));
-        assertThat(125, is(calcDiceCase(8)));
+        assertThat(calcDiceCase(3), is(4));
+        assertThat(calcDiceCase(4), is(8));
+        assertThat(calcDiceCase(5), is(16));
+        assertThat(calcDiceCase(6), is(32));
+        assertThat(calcDiceCase(7), is(63));
+        assertThat(calcDiceCase(8), is(125));
     }
 
     public int calcDiceCase(int n) {

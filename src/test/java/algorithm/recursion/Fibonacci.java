@@ -13,9 +13,9 @@ public class Fibonacci {
      */
     @Test
     public void test() {
-        assertThat(5, is(calcFibo(5)));
-        assertThat(8, is(calcFibo(6)));
-        assertThat(13, is(calcFibo(7)));
+        assertThat(calcFibo(5), is(5));
+        assertThat(calcFibo(6), is(8));
+        assertThat(calcFibo(7), is(13));
     }
 
     public int calcFibo(int num) {

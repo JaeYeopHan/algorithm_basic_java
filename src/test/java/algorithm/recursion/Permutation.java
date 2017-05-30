@@ -25,7 +25,7 @@ public class Permutation {
         actual.add("231");
         actual.add("312");
         actual.add("321");
-        assertThat(actual, is(calcPermutation("123")));
+        assertThat(calcPermutation("123"), is(actual));
     }
 
     public List<String> calcPermutation(String str) {

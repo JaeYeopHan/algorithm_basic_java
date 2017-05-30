@@ -22,7 +22,7 @@ public class NBitWays {
         actual1.add("01");
         actual1.add("10");
         actual1.add("11");
-        assertThat(actual1, is(calcBitCombination(2)));
+        assertThat(calcBitCombination(2), is(actual1));
 
         List<String> actual2 = new ArrayList<>();
         actual2.add("000");
@@ -33,7 +33,7 @@ public class NBitWays {
         actual2.add("101");
         actual2.add("110");
         actual2.add("111");
-        assertThat(actual2, is(calcBitCombination(3)));
+        assertThat(calcBitCombination(3), is(actual2));
     }
 
     public List<String> calcBitCombination(int n) {
