@@ -19,3 +19,25 @@ To learn basic algorithm code based on Java language.
 * 순열을 구한다.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Permutation.java)
 * N개 괄호로 만들 수 있는 모든 조합 출력하기.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/BraceCombination.java)
 
+### LinkedList
+* 첫번째 원소를 제거한다.
+* 중복된 원소를 제거한다.
+* 역순으로 출력한다.
+* k번째 원소를 찾는다.
+* 회문인지 판단한다.
+[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/linkedlist/SingleLinkedListTest.java)
+
+### Stack
+* Array를 사용하여 Stack을 구현한다.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/MyStackWithArrayTest.java)
+* ArrayList를 사용하여 Stack을 구현한다.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/MyStackWithArrayListTest.java)
+* Stack에 저장된 값들 중 최소값을 반환하는 minStack() 함수를 구현한다.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/MinimumStackTest.java)
+* Stack 자료구조를 사용하여 회문을 판별한다.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/IsPalindromeTest.java)
+
+### Queue
+* Stack을 사용하여 queue를 stack처럼 만든다.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/queue/ReverseQueueTest.java)
+* Stack 두 개로 Queue를 구현한다.[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/queue/QueueWithTwoStack.java)
+
+
+## LICENSE
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+
