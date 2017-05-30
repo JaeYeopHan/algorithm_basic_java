@@ -24,7 +24,7 @@ To learn basic algorithm code based on Java language.
 * 중복된 원소를 제거한다.
 * 역순으로 출력한다.
 * k번째 원소를 찾는다.
-* 회문인지 판단한다.
+* 회문인지 판단한다.  
 [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/linkedlist/SingleLinkedListTest.java)
 
 ### Stack
