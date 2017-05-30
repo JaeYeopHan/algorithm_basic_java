@@ -14,7 +14,7 @@ public class StringParseToInt {
 
     @Test
     public void toIntFromString() {
-        assertThat(123, is(toIntFromString("123")));
+        assertThat(toIntFromString("123"), is(123));
     }
 
     private int toIntFromString(String str) {

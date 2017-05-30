@@ -17,15 +17,15 @@ public class UniqueCharacterInString {
 
     @Test
     public void test() {
-        assertThat(true, is(이중포문을_사용한_방법("abcd")));
-        assertThat(true, is(이중포문을_사용한_방법("abcdefghij")));
-        assertThat(false, is(이중포문을_사용한_방법("abccde")));
-        assertThat(false, is(이중포문을_사용한_방법("abca")));
+        assertThat(이중포문을_사용한_방법("abcd"), is(true));
+        assertThat(이중포문을_사용한_방법("abcdefghij"), is(true));
+        assertThat(이중포문을_사용한_방법("abccde"), is(false));
+        assertThat(이중포문을_사용한_방법("abca"), is(false));
 
-        assertThat(true, is(HashSet을_사용한_방법("abcd")));
-        assertThat(true, is(HashSet을_사용한_방법("abcdefghij")));
-        assertThat(false, is(HashSet을_사용한_방법("abccde")));
-        assertThat(false, is(HashSet을_사용한_방법("abca")));
+        assertThat(HashSet을_사용한_방법("abcd"), is(true));
+        assertThat(HashSet을_사용한_방법("abcdefghij"), is(true));
+        assertThat(HashSet을_사용한_방법("abccde"), is(false));
+        assertThat(HashSet을_사용한_방법("abca"), is(false));
     }
 
     private boolean 이중포문을_사용한_방법(String str) {

@@ -20,11 +20,11 @@ public class IsAnagram {
 
     @Test
     public void test() {
-        assertThat(true, is(애너그램판별_USE_MAP("arc", "car")));
-        assertThat(true, is(애너그램판별_USE_MAP("caaabbb", "abababc")));
-        assertThat(false, is(애너그램판별_USE_MAP("caabbbb", "abababc")));
-        assertThat(false, is(애너그램판별_USE_MAP("arc", "carr")));
-        assertThat(false, is(애너그램판별_USE_MAP("arc", "caz")));
+        assertThat(애너그램판별_USE_MAP("arc", "car"), is(true));
+        assertThat(애너그램판별_USE_MAP("caaabbb", "abababc"), is(true));
+        assertThat(애너그램판별_USE_MAP("caabbbb", "abababc"), is(false));
+        assertThat(애너그램판별_USE_MAP("arc", "carr"), is(false));
+        assertThat(애너그램판별_USE_MAP("arc", "caz"), is(false));
     }
 
     private boolean 애너그램판별_USE_MAP(String str1, String str2) {

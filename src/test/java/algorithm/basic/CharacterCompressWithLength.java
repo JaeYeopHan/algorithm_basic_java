@@ -18,10 +18,9 @@ public class CharacterCompressWithLength {
     @Test
     public void test() {
         assertThat(null, is(RunLengthCompress_USE_HASHMAP(null)));
-        assertThat("a3b3c3", is(RunLengthCompress_USE_HASHMAP("aaabbbccc")));
-        assertThat("a3b3c4", is(RunLengthCompress_USE_HASHMAP("aabbacbccc")));
-
-        assertThat("a3b3c3", is(RunLengthCompress("aaabbbccc")));
+        assertThat(RunLengthCompress_USE_HASHMAP("aaabbbccc"), is("a3b3c3"));
+        assertThat(RunLengthCompress_USE_HASHMAP("aabbacbccc"), is("a3b3c4"));
+        assertThat(RunLengthCompress("aaabbbccc"), is("a3b3c3"));
     }
 
     private String RunLengthCompress_USE_HASHMAP(String str) {

@@ -20,13 +20,13 @@ public class FrequencyStringInDocument {
     @Test
     public void test() {
         String[] strArr = new String[100];
-        assertThat(0, is(countStringInDocs(strArr, null)));
+        assertThat(countStringInDocs(strArr, null), is(0));
         strArr[0] = "jbee";
-        assertThat(1, is(countStringInDocs(strArr, "jbee")));
+        assertThat(countStringInDocs(strArr, "jbee"), is(1));
         strArr[1] = "jbee";
-        assertThat(2, is(countStringInDocs(strArr, "jbee")));
+        assertThat(countStringInDocs(strArr, "jbee"), is(2));
         strArr[2] = "jbee";
-        assertThat(3, is(countStringInDocs(strArr, "jbee")));
+        assertThat(countStringInDocs(strArr, "jbee"), is(3));
     }
 
     private int countStringInDocs(String[] strArr, String target) {
