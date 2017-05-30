@@ -10,6 +10,12 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class ReverseQueueTest {
+
+    /*
+        TASK
+        Stack을 사용하여 queue를 stack처럼 만든다.
+     */
+
     @Test
     public void test() {
         Queue<Integer> que = new LinkedList<>();

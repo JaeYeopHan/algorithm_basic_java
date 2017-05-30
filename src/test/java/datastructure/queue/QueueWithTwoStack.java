@@ -8,6 +8,12 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class QueueWithTwoStack {
+
+    /*
+        TASK
+        Stack 두 개로 Queue를 구현한다.
+     */
+
     @Test
     public void test() {
         MyQueue<Integer> queue = new MyQueue<>();
