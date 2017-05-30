@@ -21,13 +21,15 @@ public class MyStackWithArrayListTest {
         stack.push(5);
         stack.push(6);
 
-        assertThat(6, is(stack.pop()));
-        assertThat(5, is(stack.pop()));
-        assertThat(4, is(stack.pop()));
-        assertThat(3, is(stack.pop()));
-        assertThat(2, is(stack.pop()));
-        assertThat(1, is(stack.pop()));
-        assertThat(0, is(stack.pop()));
+        assertThat(stack.pop(), is(6));
+        assertThat(stack.pop(), is(5));
+        assertThat(stack.pop(), is(4));
+        assertThat(stack.pop(), is(3));
+        assertThat(stack.pop(), is(2));
+        assertThat(stack.pop(), is(1));
+        assertThat(stack.pop(), is(0));
+//        java.lang.ArrayIndexOutOfBoundsException: -1
+//        assertThat(stack.pop(), is(0));
     }
 
     public class MyStackWithArrayList<T> {
