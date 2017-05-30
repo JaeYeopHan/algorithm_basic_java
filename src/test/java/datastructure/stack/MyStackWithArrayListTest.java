@@ -9,6 +9,12 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class MyStackWithArrayListTest {
+
+    /*
+        TASK
+        ArrayList를 사용하여 Stack을 구현한다.
+    */
+
     @Test
     public void test() {
         MyStackWithArrayList<Integer> stack = new MyStackWithArrayList<>();

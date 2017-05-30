@@ -6,6 +6,12 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class MyStackWithArrayTest {
+
+    /*
+        TASK
+        Array를 사용하여 Stack을 구현한다.
+    */
+
     @Test
     public void test() {
         MyStackWithArray stack = new MyStackWithArray();
@@ -25,7 +31,7 @@ public class MyStackWithArrayTest {
         assertThat(stack.pop(), is(2));
         assertThat(stack.pop(), is(1));
         assertThat(stack.pop(), is(0));
-        
+
 //        java.lang.RuntimeException: Empty Stack!
 //        assertThat(0, is(stack.pop()));
     }
