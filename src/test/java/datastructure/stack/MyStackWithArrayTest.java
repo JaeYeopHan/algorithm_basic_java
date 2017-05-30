@@ -1,0 +1,60 @@
+package datastructure.stack;
+
+import org.junit.Test;
+
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+
+public class MyStackWithArrayTest {
+    @Test
+    public void test() {
+        MyStackWithArray stack = new MyStackWithArray();
+
+        stack.push(0);
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
+        stack.push(5);
+        stack.push(6);
+
+        assertThat(6, is(stack.pop()));
+        assertThat(5, is(stack.pop()));
+        assertThat(4, is(stack.pop()));
+        assertThat(3, is(stack.pop()));
+        assertThat(2, is(stack.pop()));
+        assertThat(1, is(stack.pop()));
+        assertThat(0, is(stack.pop()));
+
+//        java.lang.RuntimeException: Empty Stack!
+//        assertThat(0, is(stack.pop()));
+    }
+
+    public class MyStackWithArray {
+        private int[] data = new int[5];
+        private int topIndex = -1;
+
+        public synchronized void push(int i) {
+            topIndex++;
+            if (topIndex >= data.length) {
+                int[] oldData = data;
+                data = new int[data.length * 2];
+//                System.arraycopy(oldData, 0, data, 0, oldData.length);
+                for (int j = 0; j < oldData.length; j++) {
+                    data[j] = oldData[j];
+                }
+            }
+
+            data[topIndex] = i;
+        }
+
+        public synchronized int pop() {
+            if (topIndex < 0) {
+                throw new RuntimeException("Empty Stack!");
+            }
+//            int result = data[topIndex];
+//            topIndex--;
+            return data[topIndex--];
+        }
+    }
+}
