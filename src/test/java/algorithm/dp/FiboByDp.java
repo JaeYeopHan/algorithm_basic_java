@@ -8,9 +8,9 @@ import static org.junit.Assert.assertThat;
 public class FiboByDp {
     @Test
     public void test() {
-        assertThat(5, is(fiboByDp(5)));
-        assertThat(8, is(fiboByDp(6)));
-        assertThat(13, is(fiboByDp(7)));
+        assertThat(fiboByDp(5), is(5));
+        assertThat(fiboByDp(6), is(8));
+        assertThat(fiboByDp(7), is(13));
     }
 
     public int fiboByDp(int num) {
