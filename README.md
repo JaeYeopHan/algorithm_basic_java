@@ -1,5 +1,5 @@
 # Algorithm_basic
-To learn basic algorithm code based on Java language.
+기본적인 알고리즘을 정리한 Repository 입니다. 모든 코드는 `test` 디렉토리에 존재하며 주제별로 나뉘어 있습니다. 알고리즘 코드들은 java로 작성되었습니다
 
 ## Algorithm basic List
 
@@ -47,6 +47,21 @@ To learn basic algorithm code based on Java language.
 ### Priority Queue
 * Priority queue를 사용하여 heap sort를 하라. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/priorityqueue/HeapSortByUsingPQ.java)
 * 많은 수 중 top 10을 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/priorityqueue/CalcTopTen.java)
+
+### Sort
+* bubble sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/BubbleSort.java)
+* radix sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/RadixSort.java)
+
+### Search
+* binary search를 사용하여 O(log n)의 시간복잡도로 target을 찾는다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/search/BinarySearchTest.java) 
+* 정렬된 2차원 배열에서 검색한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/search/SearchIn2DTest.java)
+
+### bit
+* 2의 제곱수인지 판별한다.
+* 두 수에서 다른 비트의 개수를 구한다.  
+[Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/bit/BitOperator.java)
+* O(1)으로 해당 데이터가 존재하는지 판단한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/bit/BitMapTest.java)
+
 
 </br>
 
