@@ -25,13 +25,17 @@ public class SearchEquilibrium {
     public int solution(int[] arr) {
         if (arr == null) return -1;
 
-        int total = 0;
+        double total = 0;
         for (int i = 0; i < arr.length; i++) {
             total += arr[i];
         }
 
         if (total - arr[0] == 0) {
             return 0;
+        }
+
+        if (total - arr[arr.length - 1] == arr[arr.length - 1]) {
+            return arr.length - 1;
         }
 
         int left = 0;
