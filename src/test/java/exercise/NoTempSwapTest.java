@@ -6,6 +6,12 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
 public class NoTempSwapTest {
+
+    /*
+        TASK
+        temp 를 사용하지 않고 두 변수를 swap 한다.
+     */
+
     @Test
     public void test() {
         int a = 4;
