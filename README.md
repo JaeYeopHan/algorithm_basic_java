@@ -63,6 +63,14 @@
 * O(1)으로 해당 데이터가 존재하는지 판단한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/bit/BitMapTest.java)
 
 
+## 알고리즘 문제 풀어보기
+### Codility exercise
+* 양 쪽의 합이 동일해지는 index의 값을 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/codility/SearchEquilibrium.java)
+
+### Others
+* n!의 결과값에서 0의 개수를 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/FactorialZeroCount.java)
+* temp 를 사용하지 않고 두 변수를 swap 한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/NoTempSwapTest.java)
+* 어느날의 월, 일을 입력받아 요일을 반환하는 함수를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/CalenderExample.java)
 </br>
 
 ## LICENSE
