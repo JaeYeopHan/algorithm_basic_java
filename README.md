@@ -1,6 +1,8 @@
 # Algorithm_basic
 기본적인 알고리즘을 정리한 Repository 입니다. 모든 코드는 `test` 디렉토리에 존재하며 주제별로 나뉘어 있습니다. 알고리즘 코드들은 java로 작성되었습니다
 
+</br>
+
 ## Algorithm basic List
 
 ### Basic part
@@ -62,6 +64,8 @@
 [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/bit/BitOperator.java)
 * O(1)으로 해당 데이터가 존재하는지 판단한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/bit/BitMapTest.java)
 
+---
+</br>
 
 ## 알고리즘 문제 풀어보기
 ### Codility exercise
