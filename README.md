@@ -60,6 +60,7 @@
 * bubble sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/BubbleSort.java)
 * Insertion sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/InsertionSort.java)
 * Selection sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/SelectionSort.java)
+* Quick sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/QuickSort.java)
 * radix sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/RadixSort.java)
 
 ### Search
