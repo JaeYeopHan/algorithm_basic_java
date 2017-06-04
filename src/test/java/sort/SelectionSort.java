@@ -9,6 +9,7 @@ public class SelectionSort {
 
     /*
         TASK
+        Selection sort를 구현한다.
      */
 
     @Test
