@@ -84,6 +84,8 @@
 * n!의 결과값에서 0의 개수를 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/FactorialZeroCount.java)
 * temp 를 사용하지 않고 두 변수를 swap 한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/NoTempSwapTest.java)
 * 어느날의 월, 일을 입력받아 요일을 반환하는 함수를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/CalenderExample.java)
+* 주어진 배열에서 합이 최대가 되는 sub array의 합을 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/FindMaxSumInArray.java)
+
 </br>
 
 ## LICENSE
