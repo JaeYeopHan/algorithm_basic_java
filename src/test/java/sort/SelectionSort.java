@@ -35,7 +35,7 @@ public class SelectionSort {
 
         for (int i = 0; i < result.length - 1; i++) {
             maxPos = i;
-            for (int k = i + 1g; k < result.length; k++) {
+            for (int k = i + 1; k < result.length; k++) {
                 if (result[maxPos] > result[k]) {
                     maxPos = k;
                 }
