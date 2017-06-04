@@ -1,6 +1,7 @@
 package sort;
 
 import org.junit.Test;
+import utils.Utils;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
@@ -23,10 +24,6 @@ public class SelectionSort {
         int[] arr3 = {1};
         int[] sortedArr3 = {1};
         assertThat(solution(arr3), is(sortedArr3));
-
-        int[] arr = {1,2,3};
-        int[] chagedArr = {1,3,2};
-        assertThat(swapValue(arr, 1,2), is(chagedArr));
     }
 
     public int[] solution(int[] arr) {
@@ -41,15 +38,8 @@ public class SelectionSort {
                     maxPos = k;
                 }
             }
-            result = swapValue(result, i, maxPos);
+            result = Utils.swapValue(result, i, maxPos);
         }
         return result;
-    }
-
-    private int[] swapValue(int[] arr, int a, int b) {
-        int temp = arr[a];
-        arr[a] = arr[b];
-        arr[b] = temp;
-        return arr;
     }
 }
