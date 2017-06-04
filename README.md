@@ -11,7 +11,7 @@
 * 주어진 문자열이 애너그램인지를 판단한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/IsAnagram.java)
 * 주어진 문자열을 길이와 함께 적어주면서 압축을 한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/CharacterCompressWithLength.java)
 * 주어진 문서(단어별로 나뉘어진 배열)에서 특정 단어의 빈도를 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/FrequencyStringInDocument.java)
-
+* 주어진 수보다 작은 소수의 개수를 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/FindPrimeNumTest.java)
 
 ### Recursion part
 * Fibonacci 를 계산하는 함수를 작성한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Fibonacci.java)
@@ -21,6 +21,9 @@
 * 순열을 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Permutation.java)
 * N개 괄호로 만들 수 있는 모든 조합 출력하기. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/BraceCombination.java)
 
+---
+
+## DataStructure
 ### LinkedList
 * 첫번째 원소를 제거한다.
 * 중복된 원소를 제거한다.
@@ -50,8 +53,13 @@
 * Priority queue를 사용하여 heap sort를 하라. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/priorityqueue/HeapSortByUsingPQ.java)
 * 많은 수 중 top 10을 구한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/priorityqueue/CalcTopTen.java)
 
+---
+
+## Algorithm
 ### Sort
 * bubble sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/BubbleSort.java)
+* Insertion sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/InsertionSort.java)
+* Selection sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/SelectionSort.java)
 * radix sort를 구현한다. [Link](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/sort/RadixSort.java)
 
 ### Search
