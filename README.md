@@ -7,6 +7,7 @@
 
 ### Basic part
 * 주어진 문자열을 int 형으로 변환한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/StringParseToInt.java)
+* 주어진 문자열을 역순으로 출력한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/StringReverse.java)
 * 주어진 문자열에서 문자열을 구성하고 있는 각각의 문자열들이 고유한지를 판단한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/UniqueCharacterInString.java)
 * 주어진 문자열이 애너그램인지를 판단한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/IsAnagram.java)
 * 주어진 문자열을 길이와 함께 적어주면서 압축을 한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/CharacterCompressWithLength.java)
