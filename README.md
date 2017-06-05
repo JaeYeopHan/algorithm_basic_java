@@ -29,7 +29,7 @@
 ---
 
 ## DataStructure
-### codeedList
+### LinkedList
 * 첫번째 원소를 제거한다.
 * 중복된 원소를 제거한다.
 * 역순으로 출력한다.
