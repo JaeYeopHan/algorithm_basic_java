@@ -15,6 +15,7 @@
 
 ### Basic Math
 * 주어진 두 수의 최대 공약수와 최소 공배수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/GcdAndGcm.java)
+* n개의 서로 다른 원소 중 r개의 원소를 순서없이 선택하는 방법의 수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/BasicCombination.java)
 
 ### Recursion part
 * Fibonacci 를 계산하는 함수를 작성한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Fibonacci.java)
