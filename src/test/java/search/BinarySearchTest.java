@@ -13,16 +13,19 @@ public class BinarySearchTest {
      */
     @Test
     public void test() {
-        int[] arr = new int[7];
-        arr[0] = 52;
-        arr[1] = 31;
-        arr[2] = 24;
-        arr[3] = 45;
-        arr[4] = 13;
-        arr[5] = 11;
-        arr[6] = 28;
-        assertThat(searchByRec(arr, 24), is(2));
-        assertThat(search(arr, 24), is(2));
+        int[] arr1 = {11,22,33,44,55,66,77,88};
+        int[] arr2 = {11,22,33,44,55,66,77};
+        int[] arr3 = {1};
+        int[] arr4 = {};
+        assertThat(search(arr1, 33), is(2));
+        assertThat(search(arr2, 22), is(1));
+        assertThat(search(arr3, 1), is(0));
+        assertThat(search(arr4, 1), is(-1));
+
+        assertThat(searchByRec(arr1, 33), is(2));
+        assertThat(searchByRec(arr2, 22), is(1));
+        assertThat(searchByRec(arr3, 1), is(0));
+        assertThat(searchByRec(arr4, 1), is(-1));
     }
 
     // while version
@@ -30,19 +33,17 @@ public class BinarySearchTest {
         if (arr == null) return -1;
         int left = 0;
         int right = arr.length - 1;
-
+        int mid;
         while (left <= right) {
-            int mid = left + (right - left) / 2;
+            mid = left + (right - left) / 2;
             if (arr[mid] == target) {
                 return mid;
             }
 
             if (arr[mid] < target) {
-                left = mid;
-                right -= 1;
+                left = mid + 1;
             } else {
-                right = mid;
-                left += 1;
+                right = mid - 1;
             }
         }
         return -1;
@@ -61,9 +62,9 @@ public class BinarySearchTest {
         if (arr[mid] == target) {
             return mid;
         } else if (arr[mid] < target) {
-            return searchRec(arr, mid, right - 1, target);
+            return searchRec(arr, mid + 1, right, target);
         } else {
-            return searchRec(arr, left + 1, mid, target);
+            return searchRec(arr, left, mid - 1, target);
         }
     }
 }
