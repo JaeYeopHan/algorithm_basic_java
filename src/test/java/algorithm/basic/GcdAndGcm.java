@@ -9,7 +9,7 @@ public class GcdAndGcm {
 
     /*
         TASK
-        입력받은 두 수의 최대 공약수를 구한다.
+        입력받은 두 수의 최대 공약수, 최소 공배수를 구한다.
      */
 
     @Test
