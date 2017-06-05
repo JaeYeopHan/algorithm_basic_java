@@ -3,8 +3,6 @@ package algorithm.basic;
 import org.junit.Test;
 import utils.Utils;
 
-import java.util.Stack;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
