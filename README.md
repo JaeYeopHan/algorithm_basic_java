@@ -12,7 +12,7 @@
 * 주어진 문자열을 길이와 함께 적어주면서 압축을 한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/CharacterCompressWithLength.java)
 * 주어진 문서(단어별로 나뉘어진 배열)에서 특정 단어의 빈도를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/FrequencyStringInDocument.java)
 * 주어진 수보다 작은 소수의 개수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/FindPrimeNumTest.java)
-* 주어진 두 수의 최대 공약수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/GcdAndGcm.java)
+* 주어진 두 수의 최대 공약수와 최소 공배수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/GcdAndGcm.java)
 
 ### Recursion part
 * Fibonacci 를 계산하는 함수를 작성한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Fibonacci.java)
