@@ -1,4 +1,4 @@
-package algorithm.recursion;
+package algorithm.basic;
 
 import org.junit.Test;
 
