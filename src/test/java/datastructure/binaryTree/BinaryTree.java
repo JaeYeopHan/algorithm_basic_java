@@ -22,6 +22,10 @@ public class BinaryTree {
         node2.left = node4;
 
         assertThat(getMax(node1), is(4));
+        assertThat(isBalanced(node1), is(true));
+
+        int[] arr = {1,5,7,9,12,26,56,78};
+        assertThat(isBST(buildBST(arr)), is(true));
     }
 
 
@@ -31,7 +35,7 @@ public class BinaryTree {
      */
 
     public int getMax(Node root) {
-        int result = Integer.MAX_VALUE;
+        int result = Integer.MIN_VALUE;
         if (root == null) {
             return result;
         }
