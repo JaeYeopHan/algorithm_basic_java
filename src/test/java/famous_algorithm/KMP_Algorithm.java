@@ -31,6 +31,8 @@ public class KMP_Algorithm {
 
         매번 접두사와 접미사를 비교하는 것도 비용이므로
         접두사와 접미사가 같은 개수에 대한 테이블을 만들어둔다.
+
+        TIME COMPLEXITY : O(M + N)
      */
 
     private int[] computeTemporaryArray(char[] pattern) {
