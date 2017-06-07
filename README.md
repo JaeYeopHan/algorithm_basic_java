@@ -16,8 +16,8 @@
 ### Basic Math
 * 주어진 두 수의 최대 공약수와 최소 공배수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/GcdAndGcm.java)
 * n개의 서로 다른 원소 중 r개의 원소를 순서없이 선택하는 방법의 수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/BasicCombination.java)
-* 주어진 수보다 작은 소수의 개수를 구한다. [code]()
-* Fibonacci 를 계산하는 함수를 작성한다. [code]()
+* 주어진 수보다 작은 소수의 개수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/FindPrimeNumTest.java)
+* Fibonacci 를 계산하는 함수를 작성한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/Fibonacci.java)
 
 ### Recursion part
 * 주사위로 이동 가능한 경우의 수를 모두 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Dice.java)
@@ -82,12 +82,12 @@
 
 ## 알고리즘 문제 풀어보기
 ### Exercise
-* 양 쪽의 합이 동일해지는 index의 값을 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/codility/SearchEquilibrium.java)
 
 ### Dynamic Programming
-* Jump game [code]()
+* Jump game [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/dp/JumpGame.java)
 
 ### Others
+* 양 쪽의 합이 동일해지는 index의 값을 구한다. [code]()
 * n!의 결과값에서 0의 개수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/FactorialZeroCount.java)
 * temp 를 사용하지 않고 두 변수를 swap 한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/NoTempSwapTest.java)
 * 어느날의 월, 일을 입력받아 요일을 반환하는 함수를 구현한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/CalenderExample.java)

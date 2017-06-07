@@ -1,4 +1,4 @@
-package codility;
+package exercise;
 
 import org.junit.Test;
 
