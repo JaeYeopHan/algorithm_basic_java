@@ -93,6 +93,7 @@
 
 ### Famous Algorithm
 * Karp_Rabin_Algorithm [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/famous_algorithm/Karp_Rabin_Algorithm.java)
+* KMP_Algorithm [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/famous_algorithm/KMP_Algorithm.java)
 
 </br>
 
