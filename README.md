@@ -92,7 +92,7 @@
 * 주어진 배열에서 합이 최대가 되는 sub array의 합을 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/FindMaxSumInArray.java)
 
 ### Famous Algorithm
-* Karp_Rabin_Algorithm [code]()
+* Karp_Rabin_Algorithm [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/famous_algorithm/Karp_Rabin_Algorithm.java)
 
 </br>
 

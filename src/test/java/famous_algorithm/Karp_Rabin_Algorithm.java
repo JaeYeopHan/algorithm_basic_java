@@ -15,7 +15,7 @@ public class Karp_Rabin_Algorithm {
 
     @Test
     public void test() {
-        RabinKarpSearch rbk = new RabinKarpSearch();
+        KarpRabinSearch rbk = new KarpRabinSearch();
         assertThat(rbk.patternSearch("dgethwabcafg".toCharArray(), "abc".toCharArray()), is(6));
     }
 
@@ -28,9 +28,11 @@ public class Karp_Rabin_Algorithm {
         이 때 핵심은 찾고자 하는 문자열의 hash 값은 물론이고 본문의 hash 값을 효율적으로 구할 수 있는 것이다.
         즉 찾고자하는 문자열과 비교를 할 때 매번 hash 값을 생성하는 것이 아니고
         수학적인 규칙 속에서 이미 계산한 값을 재사용하는 것이 핵심이다.
+
+        TIME COMPLEXITY : O(MN)
      */
 
-    public class RabinKarpSearch {
+    public class KarpRabinSearch {
         private int prime = 101;
 
         public int patternSearch(char[] text, char[] pattern) {
@@ -81,9 +83,11 @@ public class Karp_Rabin_Algorithm {
             return hash;
         }
     }
+
     /*
         REFERENCE
         YOUTUBE : https://www.youtube.com/watch?v=H4VrKHVG5qI
         GITHUB  : https://github.com/mission-peace/interview/blob/master/src/com/interview/string/RabinKarpSearch.java
      */
+
 }
