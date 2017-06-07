@@ -12,15 +12,14 @@
 * 주어진 문자열이 애너그램인지를 판단한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/IsAnagram.java)
 * 주어진 문자열을 길이와 함께 적어주면서 압축을 한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/CharacterCompressWithLength.java)
 * 주어진 문서(단어별로 나뉘어진 배열)에서 특정 단어의 빈도를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/FrequencyStringInDocument.java)
-* 주어진 수보다 작은 소수의 개수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/FindPrimeNumTest.java)
 
 ### Basic Math
 * 주어진 두 수의 최대 공약수와 최소 공배수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/GcdAndGcm.java)
 * n개의 서로 다른 원소 중 r개의 원소를 순서없이 선택하는 방법의 수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/BasicCombination.java)
+* 주어진 수보다 작은 소수의 개수를 구한다. [code]()
+* Fibonacci 를 계산하는 함수를 작성한다. [code]()
 
 ### Recursion part
-* Fibonacci 를 계산하는 함수를 작성한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Fibonacci.java)
-  * Dynamic Programming Fibonacci. [code](https://github.com/JaeYeopHan/algorithm_basic_java/tree/master/src/test/java/algorithm/dp)
 * 주사위로 이동 가능한 경우의 수를 모두 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Dice.java)
 * n비트의 모든 경우의 수를 출력한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/NBitWays.java)
 * 순열을 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Permutation.java)
@@ -82,8 +81,11 @@
 </br>
 
 ## 알고리즘 문제 풀어보기
-### Codility exercise
+### Exercise
 * 양 쪽의 합이 동일해지는 index의 값을 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/codility/SearchEquilibrium.java)
+
+### Dynamic Programming
+* Jump game [code]()
 
 ### Others
 * n!의 결과값에서 0의 개수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/exercise/FactorialZeroCount.java)

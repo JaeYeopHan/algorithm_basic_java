@@ -1,4 +1,4 @@
-package algorithm.basic;
+package algorithm.basicMath;
 
 import org.junit.Test;
 
