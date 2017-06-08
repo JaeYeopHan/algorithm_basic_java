@@ -17,13 +17,13 @@ public class CharacterCompressWithLength {
 
     @Test
     public void test() {
-        assertThat(null, is(RunLengthCompress_USE_HASHMAP(null)));
-        assertThat(RunLengthCompress_USE_HASHMAP("aaabbbccc"), is("a3b3c3"));
-        assertThat(RunLengthCompress_USE_HASHMAP("aabbacbccc"), is("a3b3c4"));
-        assertThat(RunLengthCompress("aaabbbccc"), is("a3b3c3"));
+        assertThat(null, is(runLengthCompress_USE_HASHMAP(null)));
+        assertThat(runLengthCompress_USE_HASHMAP("aaabbbccc"), is("a3b3c3"));
+        assertThat(runLengthCompress_USE_HASHMAP("aabbacbccc"), is("a3b3c4"));
+        assertThat(runLengthCompress("aaabbbccc"), is("a3b3c3"));
     }
 
-    private String RunLengthCompress_USE_HASHMAP(String str) {
+    private String runLengthCompress_USE_HASHMAP(String str) {
         if (str == null) return null;
 
         Map<Character, Integer> charCounter = new HashMap<>(str.length());
@@ -39,7 +39,7 @@ public class CharacterCompressWithLength {
         return sb.toString();
     }
 
-    private String RunLengthCompress(String str) {
+    private String runLengthCompress(String str) {
         if (str == null) return null;
 
         char[] ca = str.toCharArray();
