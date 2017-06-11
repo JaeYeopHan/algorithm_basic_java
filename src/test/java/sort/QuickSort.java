@@ -21,6 +21,9 @@ public class QuickSort {
         int[] arr2 = {6,4,1,8,9,2,7,5,3};
         int[] sortedArr2 = {1,2,3,4,5,6,7,8,9};
         assertThat(solution(arr2, 0, arr2.length - 1), is(sortedArr2));
+        int[] arr4 = {6,4,2,10,9,1,7,11,5,3,0,8};
+        int[] sortedArr4 = {0,1,2,3,4,5,6,7,8,9,10,11};
+        assertThat(solution(arr4, 0, arr4.length - 1), is(sortedArr4));
         int[] arr3 = {1};
         int[] sortedArr3 = {1};
         assertThat(solution(arr3, 0, arr3.length - 1), is(sortedArr3));
@@ -45,12 +48,14 @@ public class QuickSort {
         int pivotValue = arr[right];
         int endOfLowBlock = left - 1;
 
-        for (int pos = left; pos < right; pos++) {
+        for (int pos = left; pos < right; ++pos) {
             if (pivotValue > arr[pos]) {
-                Utils.swapValue(arr, pos, ++endOfLowBlock);
+                endOfLowBlock += 1;
+                Utils.swapValue(arr, pos, endOfLowBlock);
             }
         }
-        Utils.swapValue(arr, right, ++endOfLowBlock);
+        endOfLowBlock += 1;
+        Utils.swapValue(arr, right, endOfLowBlock);
 
         return endOfLowBlock;
     }
