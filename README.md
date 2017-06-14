@@ -14,12 +14,12 @@
 * 주어진 문서(단어별로 나뉘어진 배열)에서 특정 단어의 빈도를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/FrequencyStringInDocument.java)
 
 ### Basic Math
-* 주어진 두 수의 최대 공약수와 최소 공배수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basic/GcdAndGcm.java)
+* 주어진 두 수의 최대 공약수와 최소 공배수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/GcdAndGcm.java)
 * n개의 서로 다른 원소 중 r개의 원소를 순서없이 선택하는 방법의 수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/BasicCombination.java)
 * 주어진 수보다 작은 소수의 개수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/FindPrimeNumTest.java)
 * Fibonacci 를 계산하는 함수를 작성한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/Fibonacci.java)
 * 주어진 정수의 각 자리 수의 합을 구한다. [code]
-* 사다리를 한 칸 또는 두 칸씩 오를 수 있다고 했을 때 사다리 높이에 따른 사다리 오르기 방법의 경우의 수를 구한다. [code]
+* 사다리를 한 칸 또는 두 칸씩 오를 수 있다고 했을 때 사다리 높이에 따른 사다리 오르기 방법의 경우의 수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/Ladder.java)
 
 ### Recursion part
 * 주사위로 이동 가능한 경우의 수를 모두 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/recursion/Dice.java)

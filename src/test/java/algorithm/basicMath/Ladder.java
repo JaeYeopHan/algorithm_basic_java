@@ -41,15 +41,6 @@ public class Ladder {
         return result;
     }
 
-    // test code를 작성하다보니 이것이 피보나치 규칙을 따른다는 것을 알게 되었다.
-    // Recursion version
-    private int getCountOfCaseRec(int num) {
-        if (num < 2) {
-            return 1;
-        }
-        return getCountOfCaseRec(num - 1) + getCountOfCaseRec(num - 2);
-    }
-
     public int getByRecursion(int n, int r) {
         int cache[][] = new int[n + 1][r + 1];
         if (r == 0 || n == r) {
@@ -57,5 +48,14 @@ public class Ladder {
         }
         if (cache[n][r] != 0) return cache[n][r];
         return cache[n][r] = getByRecursion(n - 1, r - 1) + getByRecursion(n - 1, r);
+    }
+
+    // test code를 작성하다보니 이것이 피보나치 규칙을 따른다는 것을 알게 되었다.
+    // Recursion version
+    private int getCountOfCaseRec(int num) {
+        if (num < 2) {
+            return 1;
+        }
+        return getCountOfCaseRec(num - 1) + getCountOfCaseRec(num - 2);
     }
 }
