@@ -18,7 +18,7 @@
 * n개의 서로 다른 원소 중 r개의 원소를 순서없이 선택하는 방법의 수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/BasicCombination.java)
 * 주어진 수보다 작은 소수의 개수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/FindPrimeNumTest.java)
 * Fibonacci 를 계산하는 함수를 작성한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/Fibonacci.java)
-* 주어진 정수의 각 자리 수의 합을 구한다. [code]
+* 주어진 정수의 각 자리 수의 합을 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/SumEachNum.java)
 * 사다리를 한 칸 또는 두 칸씩 오를 수 있다고 했을 때 사다리 높이에 따른 사다리 오르기 방법의 경우의 수를 구한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/algorithm/basicMath/Ladder.java)
 
 ### Recursion part
@@ -43,7 +43,7 @@
 * ArrayList를 사용하여 Stack을 구현한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/MyStackWithArrayListTest.java)
 * Stack에 저장된 값들 중 최소값을 반환하는 minStack() 함수를 구현한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/MinimumStackTest.java)
 * Stack 자료구조를 사용하여 회문을 판별한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/IsPalindromeTest.java)
-* 괄호의 유효성을 체크한다. [code]
+* 괄호의 유효성을 체크한다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/stack/CheckBrace.java)
 
 ### Queue
 * Stack을 사용하여 queue를 stack처럼 만든다. [code](https://github.com/JaeYeopHan/algorithm_basic_java/blob/master/src/test/java/datastructure/queue/ReverseQueueTest.java)
