@@ -28,7 +28,7 @@ public class Dice {
         if (n == 0) return 1;
         int result = 0;
         for(int i = 1; i<=6; i++){
-            if(i >= 0){
+            if(n - i >= 0){
                 if(dp[n - i] == 0){
                     dp[n - i] = calcDiceCase(n - i);
                 }
