@@ -22,14 +22,19 @@ public class Dice {
         assertThat(calcDiceCase(8), is(125));
     }
 
+    private int dp[] = new int[1000];
     public int calcDiceCase(int n) {
         if (n < 0) return 0;
         if (n == 0) return 1;
-        return calcDiceCase(n - 1)
-                + calcDiceCase(n - 2)
-                + calcDiceCase(n - 3)
-                + calcDiceCase(n - 4)
-                + calcDiceCase(n - 5)
-                + calcDiceCase(n - 6);
+        int result = 0;
+        for(int i = 1; i<=6; i++){
+            if(i >= 0){
+                if(dp[n - i] == 0){
+                    dp[n - i] = calcDiceCase(n - i);
+                }
+                result += dp[n - i];
+            }
+        }
+        return result;
     }
 }
